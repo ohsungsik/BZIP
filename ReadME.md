@@ -3,6 +3,11 @@ BZIP은 Burrows-Wheeler block-sorting text compression algorithm과 Huffman codi
 이 소스는 포트폴리오 목적으로 만들어졌습니다. 
 또한 압축 해제 과정을 보기 쉽게 표현하기 위해 최적화에 대한 부분은 고려되어 있지 않습니다. 때문에 실무에 바로 적용하기에는 무리가 있습니다.
 
+### 사용 방법
+BZIP.exe < BZip2 file path >
+
+e.g) BZIP.exe "Resources\sample1.bz2"
+
 ### 개발 환경
 - OS: Windows 11 22H2
 - IDE: Visual Studio 2022
