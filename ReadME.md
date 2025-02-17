@@ -72,7 +72,7 @@ BZip2 포맷은 Burrows-Wheeler block-sorting text compression algorithm과 Huff
 
 
 ### 압축 해제 과정
-위 압축 과정을 역순으로 진행하면 압축 해제가 가능함으로 압축 해제 과정은
+위 압축 과정을 역순으로 진행하면 압축 해제가 가능하므로 압축 해제 과정은
 1. 스트림 헤더 파싱                                       = Decompress::Open()
    
 2. 블럭 헤더 파싱                                         = Decompress::ReadBlockHeader()
